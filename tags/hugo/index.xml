@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Lightbi</title>
+    <title>Hugo on Fabian&#39;s Portfolio</title>
     <link>https://fabianmolinaEE.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on Lightbi</description>
+    <description>Recent content in Hugo on Fabian&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
-    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
+    <managingEditor>fabianmolina@stanford.edu (Fabian Molina)</managingEditor>
+    <webMaster>fabianmolina@stanford.edu (Fabian Molina)</webMaster>
     <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://fabianmolinaEE.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use this Hugo theme ?</title>
       <link>https://fabianmolinaEE.github.io/post/2020/jan/use-this-theme/</link>
-      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
       <guid>https://fabianmolinaEE.github.io/post/2020/jan/use-this-theme/</guid>
       <description>After downloading the theme, unzip the file and go to the &amp;rsquo;lightbi-hugo-master&amp;rsquo; folder. Open the folder in you editor and run the hugo build command as below.&#xA;hugo It will create a folder named &amp;lsquo;public&amp;rsquo; and in the same you can find the website created by Hugo from the contents from &amp;lsquo;content&amp;rsquo; folder and the theme.</description>
     </item>
     <item>
       <title>Build a Hugo Blog</title>
       <link>https://fabianmolinaEE.github.io/post/2020/jan/build-hugo-blog/</link>
-      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
       <guid>https://fabianmolinaEE.github.io/post/2020/jan/build-hugo-blog/</guid>
       <description>Hugo? It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.</description>
     </item>
     <item>
       <title>Rich Content</title>
       <link>https://fabianmolinaEE.github.io/post/2020/jan/rich-content/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
       <guid>https://fabianmolinaEE.github.io/post/2020/jan/rich-content/</guid>
       <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</description>
     </item>
     <item>
       <title>Host in Netlify</title>
       <link>https://fabianmolinaEE.github.io/post/2020/jan/netlify-conf/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
       <guid>https://fabianmolinaEE.github.io/post/2020/jan/netlify-conf/</guid>
       <description>You can host your static website wth zero cost in Netlify.&#xA;Add the below netlify.toml in the root folder.&#xA;[build] publish = &amp;quot;public&amp;quot; command = &amp;quot;hugo --gc --minify&amp;quot; [context.production.environment] HUGO_VERSION = &amp;quot;0.</description>
     </item>
