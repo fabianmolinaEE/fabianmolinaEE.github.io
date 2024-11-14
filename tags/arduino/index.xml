@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arduino on Fabian&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/arduino/</link>
+    <link>https://fabianmolinaEE.github.io/tags/arduino/</link>
     <description>Recent content in Arduino on Fabian&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>fabianmolina@stanford.edu (Fabian Molina)</managingEditor>
     <webMaster>fabianmolina@stanford.edu (Fabian Molina)</webMaster>
     <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fabianmolinaEE.github.io/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ESP32 Weather Station</title>
-      <link>http://localhost:1313/post/2020/jan/netlify-conf/</link>
+      <link>https://fabianmolinaEE.github.io/post/2020/jan/netlify-conf/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
-      <guid>http://localhost:1313/post/2020/jan/netlify-conf/</guid>
+      <guid>https://fabianmolinaEE.github.io/post/2020/jan/netlify-conf/</guid>
       <description>Project Description: I developed a weather station using an ESP32 microcontroller that fetches live weather data from the OpenWeather API and displays it on an OLED or LCD screen, with code options for both display types.</description>
     </item>
     <item>
       <title>Arduino Ultrasonic Ruler</title>
-      <link>http://localhost:1313/post/2020/jan/build-hugo-blog/</link>
+      <link>https://fabianmolinaEE.github.io/post/2020/jan/build-hugo-blog/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
-      <guid>http://localhost:1313/post/2020/jan/build-hugo-blog/</guid>
+      <guid>https://fabianmolinaEE.github.io/post/2020/jan/build-hugo-blog/</guid>
       <description>Project Description: In this project, I created an ultrasonic ruler using Arduino that measures the distance to an object and displays the result in centimeters on a 16x2 LCD screen. The device utilizes an HC-SR04 ultrasonic sensor to send out sound waves and record the time it takes for them to reflect back.</description>
     </item>
   </channel>

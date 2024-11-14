@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Fabian&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/markdown/</link>
+    <link>https://fabianmolinaEE.github.io/tags/markdown/</link>
     <description>Recent content in Markdown on Fabian&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>fabianmolina@stanford.edu (Fabian Molina)</managingEditor>
     <webMaster>fabianmolina@stanford.edu (Fabian Molina)</webMaster>
     <lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fabianmolinaEE.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magic Mirror Dashboard</title>
-      <link>http://localhost:1313/post/2020/jan/markdown/</link>
+      <link>https://fabianmolinaEE.github.io/post/2020/jan/markdown/</link>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
-      <guid>http://localhost:1313/post/2020/jan/markdown/</guid>
+      <guid>https://fabianmolinaEE.github.io/post/2020/jan/markdown/</guid>
       <description>Project Description: In this project, I designed and built a &amp;ldquo;Magic Mirror&amp;rdquo; dashboard that functions as both a smart display and a mirror. Using a Raspberry Pi, I set up the mirror to display essential information, like the time, weather, and calendar events, on a TV monitor with a reflective film.</description>
     </item>
   </channel>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FPGA on Fabian&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/fpga/</link>
+    <link>https://fabianmolinaEE.github.io/tags/fpga/</link>
     <description>Recent content in FPGA on Fabian&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>fabianmolina@stanford.edu (Fabian Molina)</managingEditor>
     <webMaster>fabianmolina@stanford.edu (Fabian Molina)</webMaster>
     <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/fpga/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fabianmolinaEE.github.io/tags/fpga/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Systems Work</title>
-      <link>http://localhost:1313/post/2020/jan/who-am-i/</link>
+      <link>https://fabianmolinaEE.github.io/post/2020/jan/who-am-i/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
-      <guid>http://localhost:1313/post/2020/jan/who-am-i/</guid>
+      <guid>https://fabianmolinaEE.github.io/post/2020/jan/who-am-i/</guid>
       <description>FPGA-Based Music Player with Waveform Display Project Description: In my Digital System Design course, I developed a music player on an FPGA using Verilog, building modules that read and played notes stored in ROM.</description>
     </item>
   </channel>

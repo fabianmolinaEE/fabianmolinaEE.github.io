@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Fabian&#39;s Portfolio</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://fabianmolinaEE.github.io/categories/</link>
     <description>Recent content in Categories on Fabian&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>fabianmolina@stanford.edu (Fabian Molina)</managingEditor>
     <webMaster>fabianmolina@stanford.edu (Fabian Molina)</webMaster>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fabianmolinaEE.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
