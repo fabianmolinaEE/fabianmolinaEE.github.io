@@ -2,27 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Fabian&#39;s Portfolio</title>
-    <link>https://fabianmolinaEE.github.io/tags/markdown/</link>
+    <link>http://localhost:1313/tags/markdown/</link>
     <description>Recent content in Markdown on Fabian&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>fabianmolina@stanford.edu (Fabian Molina)</managingEditor>
     <webMaster>fabianmolina@stanford.edu (Fabian Molina)</webMaster>
     <lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fabianmolinaEE.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magic Mirror Dashboard</title>
-      <link>https://fabianmolinaEE.github.io/post/2020/jan/markdown/</link>
+      <link>http://localhost:1313/post/2020/jan/markdown/</link>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
-      <guid>https://fabianmolinaEE.github.io/post/2020/jan/markdown/</guid>
-      <description>Magic Mirror Dashboard&#xA;The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.</description>
-    </item>
-    <item>
-      <title>Basic Syntax</title>
-      <link>https://fabianmolinaEE.github.io/post/2020/jan/syntax/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
-      <guid>https://fabianmolinaEE.github.io/post/2020/jan/syntax/</guid>
-      <description>Headings&#xA;To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (h3), use three number signs (e.</description>
+      <guid>http://localhost:1313/post/2020/jan/markdown/</guid>
+      <description>Project Description: In this project, I designed and built a &amp;ldquo;Magic Mirror&amp;rdquo; dashboard that functions as both a smart display and a mirror. Using a Raspberry Pi, I set up the mirror to display essential information, like the time, weather, and calendar events, on a TV monitor with a reflective film.</description>
     </item>
   </channel>
 </rss>

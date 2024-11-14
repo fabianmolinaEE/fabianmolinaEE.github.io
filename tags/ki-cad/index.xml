@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ki Cad on Fabian&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/ki-cad/</link>
+    <description>Recent content in Ki Cad on Fabian&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>fabianmolina@stanford.edu (Fabian Molina)</managingEditor>
+    <webMaster>fabianmolina@stanford.edu (Fabian Molina)</webMaster>
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ki-cad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mechanical Keyboard Build</title>
+      <link>http://localhost:1313/post/2020/jan/syntax/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate><author>fabianmolina@stanford.edu (Fabian Molina)</author>
+      <guid>http://localhost:1313/post/2020/jan/syntax/</guid>
+      <description>Project Description: In this project, I designed and built a custom mechanical keyboard, creating the PCB layout from scratch in KiCad. The design includes various components like diodes, rotary encoders, a sliding potentiometer, multiplexers, and an OLED display, all powered by a Raspberry Pi Pico.</description>
+    </item>
+  </channel>
+</rss>
