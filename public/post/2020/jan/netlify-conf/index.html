@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>ESP32 Weather Station - Fabian&#39;s Portfolio</title>
+<meta name="description" content="Uses an ESP32 to send API request to OpenWeather API to retrieve live weather for a given latitude and longitude...">
+
+<meta name="author" content="Fabian Molina"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Fabian\u0027s Portfolio",
+    
+    "url": "https:\/\/fabianmolinaEE.github.io\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/fabianmolinaEE.github.io\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/fabianmolinaEE.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/fabianmolinaEE.github.io\/post\/2020\/jan\/netlify-conf\/",
+          "name": "Esp32 weather station"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "map[authorinfo:I am a forward thinking Electrical Engineering major apart of Stanford class of 2027. authorpostimage:\/img\/author-post-img.jpg email:fabianmolina@stanford.edu github:username instagram:username linkedin:username name:Fabian Molina website:https:\/\/fabianmolinaee.github.io youtube:user\/username]"
+  },
+  "headline": "ESP32 Weather Station",
+  "description" : "Uses an ESP32 to send API request to OpenWeather API to retrieve live weather for a given latitude and longitude...",
+  "inLanguage" : "en",
+  "wordCount":  193 ,
+  "datePublished" : "2024-06-20T00:00:00",
+  "dateModified" : "2024-06-20T00:00:00",
+  "image" : "https:\/\/fabianmolinaEE.github.io\/",
+  "keywords" : [ "Arduino, ESP32, API" ],
+  "mainEntityOfPage" : "https:\/\/fabianmolinaEE.github.io\/post\/2020\/jan\/netlify-conf\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/fabianmolinaEE.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/fabianmolinaEE.github.io\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="ESP32 Weather Station" />
+<meta property="og:description" content="Uses an ESP32 to send API request to OpenWeather API to retrieve live weather for a given latitude and longitude...">
+<meta property="og:image" content="https://fabianmolinaEE.github.io/img/posts/img-10.jpg" />
+<meta property="og:url" content="https://fabianmolinaEE.github.io/post/2020/jan/netlify-conf/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Fabian&#39;s Portfolio" />
+<link rel="apple-touch-icon" sizes="180x180" href=" https://fabianmolinaEE.github.io/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fabianmolinaEE.github.io/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fabianmolinaEE.github.io/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.123.7">
+<link rel="alternate" href="https://fabianmolinaEE.github.io/index.xml" type="application/rss+xml" title="Fabian&#39;s Portfolio">
+<script src="https://fabianmolinaEE.github.io/js/dark-mode.js"></script><link rel="stylesheet" href="/style.min.css">
+
+
+
+
+
+
+
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="https://fabianmolinaEE.github.io/">Fabian&#39;s Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Home"
+                  href="/"> Home</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About Me"
+                  href="/about/"> About Me</a>
+              </li>
+
+              
+              
+
+
+                
+            
+
+            
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              
+            </ul>
+
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="post-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                ESP32 Weather Station
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              <span class="post-meta">
+  
+  
+  &nbsp;20 June 2024
+
+  
+
+  
+
+  
+</span>
+
+
+              
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+
+      <div class="card-image card-image-blog p-0">
+        
+        
+          
+            <img src="/img/posts/img-10.jpg" alt="/img/posts/img-10.jpg" class="card-img-bottom rounded img-fluid lazyload">
+          
+        
+
+
+        
+      </div>
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <h2 id="project-description">Project Description:</h2>
+<p>I developed a weather station using an ESP32 microcontroller that fetches live weather data from the OpenWeather API and displays it on an OLED or LCD screen, with code options for both display types. The device allows users to scroll through various cities using a scroll wheel, selecting each location for updated weather conditions. It also features custom animations that reflect the current weather—like raindrops, sunshine, or clouds—adding a visually engaging element to the interface. This compact weather station is a practical tool for checking local and international weather in real time.</p>
+<h2 id="what-i-learned">What I Learned:</h2>
+<p>This project helped me deepen my understanding of API integration with microcontrollers. I learned how to handle HTTP requests on the ESP32 to pull data from the OpenWeather API and parse the JSON responses for relevant information. Coding for both OLED and LCD screens taught me how to adapt the display output for different formats and sizes, improving my flexibility in display interfacing. Additionally, implementing animations based on weather conditions gave me valuable experience in graphics programming for embedded displays. Overall, this project strengthened my skills in IoT, API integration, and UI design on constrained hardware.</p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="https://fabianmolinaEE.github.io/tags/arduino/">Arduino</a>
+        
+        <a href="https://fabianmolinaEE.github.io/tags/esp32/">ESP32</a>
+        
+        <a href="https://fabianmolinaEE.github.io/tags/api/">API</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="https://fabianmolinaEE.github.io/post/2020/jan/extra/"
+            data-toggle="tooltip" data-placement="top" title="AC-DC Converter">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="https://fabianmolinaEE.github.io/post/2020/jan/use-this-theme/"
+            data-toggle="tooltip" data-placement="top" title="Gemini AI-Powered Voice Assistant">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Read More</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="https://fabianmolinaEE.github.io/post/2020/jan/use-this-theme/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Gemini AI-Powered Voice Assistant</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  15 August 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    A voice assistant capable of text-to-speech and responding. Serves as a voice assitant and home automator...
+                
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/posts/jarvis_hufcd2400d18c89603ed9c9cab0ca8eae3_387798_500x0_resize_q75_box.jpeg" alt="/img/posts/jarvis.jpeg"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="https://fabianmolinaEE.github.io/post/2020/jan/build-hugo-blog/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Arduino Ultrasonic Ruler</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  01 June 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    The UltraSonic ruler is a device that sends out ultrasonic waves to then measure the time it takes to get back...
+                
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/posts/ultrasonic_hu0b36d7e7201943cd3330ba66ac6f71d2_4309996_500x0_resize_box_3.png" alt="/img/posts/ultrasonic.png"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="mailto:fabianmolina@stanford.edu" title="Email me" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-envelope"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/username" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/username" title="LinkedIn" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/username" title="Instagram" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-instagram"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/username" title="Youtube" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          
+          <a href="https://fabianmolinaee.github.io">Fabian Molina</a>
+          
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+          2024
+          
+
+          
+          &nbsp;&bull;&nbsp;
+          <a href="https://fabianmolinaEE.github.io/">Fabian&#39;s Portfolio</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi.</a>&nbsp; Made with ❤ by <a href="https://binovarghese.com">Bino</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://fabianmolinaEE.github.io/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://fabianmolinaEE.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+
+    
+  </body>
+</html>
+
